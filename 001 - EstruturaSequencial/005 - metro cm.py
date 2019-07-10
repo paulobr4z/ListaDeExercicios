@@ -1,8 +1,6 @@
 '''
 Faça um Programa que converta metros para centímetros.
 '''
-m = float(input('Digite quantos metros: '))
-
+m = float(input('Digite o valor em metros: '))
 cm = m * 100
-
-print('Em', m, 'tem', round(cm), 'cm')
+print(f'{m}m = {cm}cm')
