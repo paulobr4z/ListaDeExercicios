@@ -10,5 +10,4 @@ tempo_download = tamanho_arquivo * (velocidade_internet / 60)
 
 print(f'{tempo_download // 60} minutos')
 print(f'{tempo_download / 60} segundos')
-
 print(f'{tempo_download:.2f}')
