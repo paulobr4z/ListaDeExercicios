@@ -14,8 +14,7 @@ def num(n):
 
 num(n = int(input('N: ')))
 
-#ex
-
+#ex2
 def num2(n):
     lista = []
     for i in range(1,n+1):
