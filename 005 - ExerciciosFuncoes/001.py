@@ -14,14 +14,11 @@ def num(n):
 
 num(n = int(input('N: ')))
 
-#ex2
-def num(n):
+#ex
+
+def num2(n):
     lista = []
     for i in range(1,n+1):
         lista.append(str(i))
-        for j in range(1):
-            print(' '.join(lista))
-    return n
-
-num(n = int(input('N: ')))
-
+        print(' '.join(lista[int(i-1)]*i))
+num2(n = int(input('N: ')))
