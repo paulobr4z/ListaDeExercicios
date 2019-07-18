@@ -9,7 +9,18 @@ que o usuário repita esse cálculo para novos valores de entrada todas as vezes
 que desejar.
 '''
 
-def hora(h,m):
-    hora_am = h/2
-    print(f'{hora_am}:{m} P.M.')
-hora(15,50)
+def hora():
+    h = 9999
+    print('Digite a hora ou 100 para fechar o programa!')
+    while h != 100:
+        h = int(input('Digite a hora: '))
+        if h == 100:
+            break
+        m = input('Digite os min: ')
+        if h > 12:
+            print(f'{h-12}:{m} P.M.')
+        elif h == 00:
+            print(f'{12}:{m} P.M.')
+        else:
+            print(f'{h}:{m} P.M.')
+hora()
