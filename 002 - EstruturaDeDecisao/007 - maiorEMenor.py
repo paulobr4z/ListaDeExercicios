@@ -1,7 +1,12 @@
 '''
-Faça um Programa que leia três números e mostre o maior deles.
+Faça um Programa que leia três números e mostre o maior e o menor deles.
 '''
-EX: 01
+
+n1 = int(input('Digite o 1 número: '))
+n2 = int(input('Digite a 2 número: '))
+n3 = int(input('Digite a 3 número: '))
+
+#EX: 01
 
 maior = n1
 menor = n1
@@ -22,7 +27,7 @@ print (f'Menor: {menor})
 print (f'Maior: {maior})
 
 
-EX: 02
+#EX: 02
 
 lista=[]
 
