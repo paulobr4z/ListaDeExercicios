@@ -6,5 +6,7 @@ n = int(input('digite um número: '))
 
 if n > 0:
     print(f'{n} é positivo')
-else:
+elif n < 0:
     print(f'{n} é negativo')
+else:
+    print(f'{n} zero')
