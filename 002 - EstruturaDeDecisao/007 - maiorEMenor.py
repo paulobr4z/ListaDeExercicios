@@ -25,12 +25,11 @@ print (f'Maior: {maior})
 
 
 #EX: 02
+num = []
 
-lista=[]
-
-lista.append(n1)
-lista.append(n2)
-lista.append(n3)
-
-print('menor:',min(lista))
-print('maior:',max(lista))
+for i in range(3):
+  n = input(f'Digite o {i+1} número: ')
+  num.append(n)
+       
+print('menor:',min(num))
+print('maior:',max(num))
